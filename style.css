@@ -38,10 +38,7 @@ html::-webkit-scrollbar { display: none; }
     height: 25%;
 
     color: white;
-    background-color: rgba(255, 153, 51, 0.8);
-    box-shadow: black 12px;
-    border-radius: 20px;
-
+    text-shadow: 3px 3px 6px black;
 }
 
 
