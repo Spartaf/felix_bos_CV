@@ -35,10 +35,10 @@ html::-webkit-scrollbar { display: none; }
     bottom: 0;
     left: 0;
     width: 55%;
-    height: 17%;
+    height: 25%;
 
     color: white;
-    background-color: rgba(37, 150, 190, 0.8);
+    background-color: rgba(255, 153, 51, 0.8);
     box-shadow: black 12px;
     border-radius: 20px;
 
