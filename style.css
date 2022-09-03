@@ -8,7 +8,10 @@
 /* --- HOME PAGE --- */
 
 #section_1{
-    background-color: blue;
+    background-image: url(img/cube-art-geometry-geometric-shapes-3d-art.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 900px;
     width:100%;
 }
