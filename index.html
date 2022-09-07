@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="#">Félix Bos</a>
+        <div class="nav-links">
+            <ul>
+                <li  class="active"><a href="#">Home</a></li>
+                <li><a href="#"><span class="underline_menu">About</span></a></li>
+                <li><a href="#"><span class="underline_menu">Education</span></a></li>
+                <li><a href="#"><span class="underline_menu">Skills & Languages</span></a></li>
+                <li><a href="#"><span class="underline_menu">Experience</span></a></li>
+                <li><a href="#"><span class="underline_menu">Portfolio & projects</span></a></li>
+                <li><a href="#"><span class="underline_menu">Contact</span></a></li>
+            </ul>
+        </div>
+        <img src="img/icons8-menu-64.png" rel="menu" class="menu_ham">
+    </nav>
+    <header>
+        <div class="header_title">
+            <h1>Hi, I'm Félix Bos</h1>
+            <h3>Math and computer science student at Sorbonne University</h3>
+        </div>
+        
+    </header>
+
+    <section>
+        <h1>coucou la famille </h1>
+    </section>
+    
+
+</body>
+
+<script>
+    const menuHamburger = document.querySelector(".menu_ham")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click',()=>
+    (navLinks.classList.toggle('mobile-menu')
+    ))
+
+
+    const Headertitle = document.querySelector(".header_title")
+
+    menuHamburger.addEventListener('click',()=>
+    (Headertitle.classList.toggle('little_vanish')
+    ))
+</script>
+</html>
