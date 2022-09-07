@@ -163,8 +163,9 @@ header{
 
 @media screen and (max-width: 1070px){
 
-    html{
-        margin:0;
+    html,body{
+        width:100%;
+        overflow-x:hidden;
     }
     .navbar .menu_ham{
         display: block;
