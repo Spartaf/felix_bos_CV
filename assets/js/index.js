@@ -18,3 +18,5 @@ scroll.on("scroll",()=>{
     }
 
 });
+
+// contact link
